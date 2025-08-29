@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[447],{5298:(e,r,s)=>{"use strict";s.r(r),s.d(r,{default:()=>u});var n=s(5155);function u(){return(0,n.jsx)("div",{children:"Страница пары (статичная версия)"})}},6540:(e,r,s)=>{Promise.resolve().then(s.bind(s,5298))}},e=>{var r=r=>e(e.s=r);e.O(0,[441,684,358],()=>r(6540)),_N_E=e.O()}]);
