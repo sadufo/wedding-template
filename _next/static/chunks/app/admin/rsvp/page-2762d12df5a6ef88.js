@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[342],{4321:(e,r,s)=>{Promise.resolve().then(s.bind(s,4687))},4687:(e,r,s)=>{"use strict";s.r(r),s.d(r,{default:()=>u});var n=s(5155);function u(){return(0,n.jsx)("div",{children:"Список гостей (статичная версия)"})}}},e=>{var r=r=>e(e.s=r);e.O(0,[441,684,358],()=>r(4321)),_N_E=e.O()}]);
