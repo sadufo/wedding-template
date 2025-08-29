@@ -1,10 +1,5 @@
-import { requireAuth } from "@/lib/auth"
-import { CoupleEditor } from "@/components/admin/couple-editor"
+"use client"
 
-export const dynamic = "force-dynamic"
-
-export default async function AdminCouplePage() {
-  const user = await requireAuth()
-
-  return <CoupleEditor user={user} />
+export default function AdminCouplePage() {
+  return <div>Страница пары (статичная версия)</div>
 }

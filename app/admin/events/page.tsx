@@ -1,10 +1,10 @@
-import { requireAuth } from "@/lib/auth"
-import { EventsEditor } from "@/components/admin/events-editor"
+"use client"
 
-export const dynamic = "force-dynamic"
-
-export default async function AdminEventsPage() {
-  const user = await requireAuth()
-
-  return <EventsEditor user={user} />
+export default function AdminEventsPage() {
+  return <div>События свадьбы (статичная версия)</div>
 }
+// export default async function AdminEventsPage() {
+//   const user = await requireAuth()
+
+//   return <EventsEditor user={user} />
+// }

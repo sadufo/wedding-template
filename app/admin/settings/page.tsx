@@ -1,5 +1,5 @@
 "use client"
 
 export default function AdminSettingsPage() {
-  return null; // или <div>Страница временно недоступна</div>
+  return <div>Страница настроек (статичная версия)</div>
 }
