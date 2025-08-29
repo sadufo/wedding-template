@@ -1,8 +1,5 @@
-import { requireAuth } from "@/lib/auth"
-import { SiteSettings } from "@/components/admin/site-settings"
+"use client"
 
-export default async function AdminSettingsPage() {
-  const user = await requireAuth()
-
-  return <SiteSettings user={user} />
+export default function AdminSettingsPage() {
+  return null; // или <div>Страница временно недоступна</div>
 }

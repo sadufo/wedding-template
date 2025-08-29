@@ -1,7 +1,5 @@
 "use client"
 
-import { requireAuth } from "@/lib/auth"
-import { AdminHeader } from "@/components/admin/admin-header"
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -13,12 +11,9 @@ import { Upload, Users, Calendar, Settings, Heart, MapPin, Phone, Mail, Instagra
 
 export const dynamic = "force-dynamic"
 
-export default async function AdminPage() {
-  const user = await requireAuth()
-
+export default function AdminPage() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <AdminHeader user={user} />
       <AdminPanelContent />
     </div>
   )
